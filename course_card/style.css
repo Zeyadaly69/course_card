@@ -1,0 +1,121 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.course {
+  position: relative;
+  border: 5px solid black;
+  padding: 25px;
+  margin: 20px auto 0;
+  width: 770px;
+  padding: 20px;
+}
+.course-sale {
+  color: #fff;
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  letter-spacing: 2px;
+  rotate: -30deg;
+}
+
+.course-title {
+  text-align: center;
+  font-size: 22px;
+  color: #0043ff;
+  border: 3px solid #0043ff;
+  background-color: transparent;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.course-price {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.course-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+.course-description {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #808080;
+  margin-bottom: 5px;
+}
+.course-link:link,
+.course-link:visited {
+  color: black;
+}
+.course-link:hover,
+.course-link:active {
+  text-decoration: none;
+}
+.course-roadmap-title {
+  margin: 20px 0 5px;
+}
+.course-roadmap-item {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.course-item-html {
+  border-color: red;
+}
+.course-item-css {
+  border-color: orange;
+}
+.course-item-js {
+  border-color: blue;
+}
+.course-list-title {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.course-list {
+  list-style: square;
+  margin: 0 0 20px 20px;
+}
+.course-button {
+  background-color: #0043ff;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 12px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.course-button:hover {
+  background-color: #4777ff;
+}
+.course-part {
+  width: 240px;
+  float: left;
+}
+.course-body::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.course-part:first-child {
+  padding-right: 20px;
+}
